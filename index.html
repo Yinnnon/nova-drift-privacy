@@ -90,7 +90,8 @@
       from apps that use its services</a>.</li>
   </ul>
 
-  <h2>3. Online 1v1</h2>
+  <h2>3. Playing online</h2>
+  <h3>1v1</h3>
   <p>If you play online 1v1, the two devices connect to each other using a random room code:</p>
   <ul>
     <li>A connection service (<strong>PeerJS</strong>, at 0.peerjs.com) introduces the two devices
@@ -102,6 +103,20 @@
       peer-to-peer game. When they can't, the game data goes through our relay server, which only
       passes it along. The relay may keep short technical logs (such as IP addresses and times)
       to keep it running and stop abuse; we don't use them for anything else.</li>
+  </ul>
+  <h3>Battle royale</h3>
+  <p>If you play battle royale, your device connects to <strong>our match server in the European
+  Union</strong>, which runs the match for up to 10 ships:</p>
+  <ul>
+    <li>The server receives your device's IP address (every internet connection needs one) and, during
+      the match, your game data: ship position, hits, gadgets and pickups. When the match ends, the
+      game data is gone.</li>
+    <li>Every ship gets a random call sign for that match (like "CometFox42"). You never type a name,
+      and there is no chat.</li>
+    <li>Other players never see your IP address: everything goes through our server.</li>
+    <li>The server keeps no record of who played. While you are connected it uses your IP address
+      only to limit how many connections come from one address; it doesn't write IP addresses to its
+      logs.</li>
   </ul>
   <p>If you don't play online, none of this happens.</p>
 
@@ -120,7 +135,8 @@
   <h2>6. Your choices and rights</h2>
   <ul>
     <li>You can play without going online, and the browser version has no ads.</li>
-    <li>We don't keep personal information about you, apart from the relay's short technical logs
+    <li>We don't keep personal information about you (the battle royale server keeps none), apart
+      from the 1v1 relay's short technical logs
       if you play online. You can ask us about them, or ask us to delete them, by email.</li>
     <li>For the information Google receives for ads, see
       <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</li>
