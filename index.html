@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nova Drift Privacy Policy</title>
+<meta name="description" content="Privacy policy for the game Nova Drift: what data the game uses, the ads, online 1v1, and children.">
+<!-- Source of truth: plane-spinoff/docs/privacy/index.html (D37). Published as-is to the public repo
+     Yinnnon/nova-drift-privacy (GitHub Pages). Change it there only by copying this file. -->
+<style>
+  :root {
+    --bg: #f6f7fb; --card: #ffffff; --text: #1f2d3a; --muted: #5b6b7a; --line: #e2e6ee;
+    --accent: #c0508f; --accent2: #7b5cf0; --note: #eef1ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0e1c; --card: #141a2e; --text: #e8ecf5; --muted: #a3adc2; --line: #252d47;
+      --accent: #f08ac0; --accent2: #a693ff; --note: #1b2240;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b0e1c; --card: #141a2e; --text: #e8ecf5; --muted: #a3adc2; --line: #252d47;
+    --accent: #f08ac0; --accent2: #a693ff; --note: #1b2240;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 {
+    margin: 0 0 4px; font-size: 32px; line-height: 1.2;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  .summary {
+    background: var(--note); border: 1px solid var(--line); border-radius: 14px; padding: 12px 18px;
+  }
+  .summary ul { margin: 4px 0; }
+  a { color: var(--accent2); }
+  code { font-size: 14px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Nova Drift Privacy Policy</h1>
+  <p class="date">Effective 30 September 2026</p>
+
+  <p>Nova Drift ("the game") is a small independent space game for Android and web browsers. This
+  page explains what information the game uses and why. If you have a question, write to
+  <a href="mailto:NovaDriftGame@gmail.com">NovaDriftGame@gmail.com</a>.</p>
+
+  <div class="summary">
+    <p><strong>The short version</strong></p>
+    <ul>
+      <li>No accounts, no names, no chat. We never ask who you are.</li>
+      <li>Your scores, coins and settings stay on your own device.</li>
+      <li>The Android app shows an ad after every 5 games. All ads are set up for children: no
+        personalized ads and no advertising ID.</li>
+      <li>We don't sell anyone's data.</li>
+    </ul>
+  </div>
+
+  <h2>1. What stays on your device</h2>
+  <p>The game saves your best scores, settings, coins, ship upgrades and shop items, and a count of
+  games played since the last ad. They are kept in the app's (or browser's) own storage on your
+  device and are never sent to us. Uninstalling the app, or clearing the browser's site data,
+  deletes them.</p>
+
+  <h2>2. Ads (Android app only)</h2>
+  <p>The Android app shows one full-screen ad after every 5 finished games, never while you play.
+  The ads come from <strong>Google AdMob</strong>. The browser version has no ads.</p>
+  <ul>
+    <li>Every ad request is marked as <strong>child-directed</strong> and as coming from someone
+      under the age of consent, and is limited to ads suitable for all ages (rated G). Google then
+      shows no personalized ads and doesn't build an advertising profile.</li>
+    <li>The app does not use the device's advertising ID.</li>
+    <li>To show an ad, Google still receives basic technical information, such as your IP address,
+      device model, operating system and app version, and whether an ad was shown or tapped. Google
+      uses it to deliver the ad, count views, and prevent fraud. See
+      <a href="https://policies.google.com/technologies/partner-sites">how Google uses information
+      from apps that use its services</a>.</li>
+  </ul>
+
+  <h2>3. Online 1v1</h2>
+  <p>If you play online 1v1, the two devices connect to each other using a random room code:</p>
+  <ul>
+    <li>A connection service (<strong>PeerJS</strong>, at 0.peerjs.com) introduces the two devices
+      to each other. The game's online code is downloaded from <strong>unpkg.com</strong> when you
+      open 1v1.</li>
+    <li>The devices then exchange game data: ship positions, hits, gadgets and scores. No names or
+      messages are sent.</li>
+    <li>When the devices connect directly, each one can see the other's IP address, as in any
+      peer-to-peer game. When they can't, the game data goes through our relay server, which only
+      passes it along. The relay may keep short technical logs (such as IP addresses and times)
+      to keep it running and stop abuse; we don't use them for anything else.</li>
+  </ul>
+  <p>If you don't play online, none of this happens.</p>
+
+  <h2>4. Fonts</h2>
+  <p>The game loads its fonts from <strong>Google Fonts</strong>, so Google receives your IP address
+  when the fonts are downloaded. See <a href="https://policies.google.com/privacy">Google's privacy
+  policy</a>.</p>
+
+  <h2>5. Children</h2>
+  <p>Nova Drift is made for everyone, including children. The game doesn't ask for or collect
+  children's personal information: there are no accounts, no names, no chat, and no way to share
+  photos or contact details. The ads are set up for children as described above. If you are a
+  parent and have a question or concern, write to
+  <a href="mailto:NovaDriftGame@gmail.com">NovaDriftGame@gmail.com</a> and we'll help.</p>
+
+  <h2>6. Your choices and rights</h2>
+  <ul>
+    <li>You can play without going online, and the browser version has no ads.</li>
+    <li>We don't keep personal information about you, apart from the relay's short technical logs
+      if you play online. You can ask us about them, or ask us to delete them, by email.</li>
+    <li>For the information Google receives for ads, see
+      <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</li>
+  </ul>
+
+  <h2>7. Changes</h2>
+  <p>If the game starts using information differently, we'll update this page and the date at the
+  top before the change reaches the game.</p>
+
+  <footer>Nova Drift · Contact: <a href="mailto:NovaDriftGame@gmail.com">NovaDriftGame@gmail.com</a></footer>
+</main>
+</body>
+</html>
